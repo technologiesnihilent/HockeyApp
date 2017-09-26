@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func crashmeAction(_ sender: Any) {
+        let stringArray = [String]()
+        print(stringArray[2])
+    }
 }
 
