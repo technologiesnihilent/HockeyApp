@@ -32,6 +32,9 @@
 		840DA08B1F7A56DF002A73D4 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = 840DA08A1F7A56DF002A73D4 /* circle.yml */; };
 		840DA08C1F7A56DF002A73D4 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = 840DA08A1F7A56DF002A73D4 /* circle.yml */; };
 		840DA08D1F7A56DF002A73D4 /* circle.yml in Resources */ = {isa = PBXBuildFile; fileRef = 840DA08A1F7A56DF002A73D4 /* circle.yml */; };
+		840DA08F1F7A6358002A73D4 /* analyze.sh in Resources */ = {isa = PBXBuildFile; fileRef = 840DA08E1F7A6357002A73D4 /* analyze.sh */; };
+		840DA0901F7A6358002A73D4 /* analyze.sh in Resources */ = {isa = PBXBuildFile; fileRef = 840DA08E1F7A6357002A73D4 /* analyze.sh */; };
+		840DA0911F7A6358002A73D4 /* analyze.sh in Resources */ = {isa = PBXBuildFile; fileRef = 840DA08E1F7A6357002A73D4 /* analyze.sh */; };
 		8424CFA51F75323400880F48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424CFA41F75323400880F48 /* AppDelegate.swift */; };
 		8424CFA71F75323400880F48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424CFA61F75323400880F48 /* ViewController.swift */; };
 		8424CFAA1F75323400880F48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424CFA81F75323400880F48 /* Main.storyboard */; };
@@ -75,6 +78,7 @@
 		840DA07A1F78D509002A73D4 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 		840DA0821F78D610002A73D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		840DA08A1F7A56DF002A73D4 /* circle.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = circle.yml; sourceTree = "<group>"; };
+		840DA08E1F7A6357002A73D4 /* analyze.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = analyze.sh; sourceTree = "<group>"; };
 		8424CFA11F75323400880F48 /* HockeyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HockeyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8424CFA41F75323400880F48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8424CFA61F75323400880F48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 		8424CF981F75323300880F48 = {
 			isa = PBXGroup;
 			children = (
+				840DA08E1F7A6357002A73D4 /* analyze.sh */,
 				840DA08A1F7A56DF002A73D4 /* circle.yml */,
 				840DA0671F78D459002A73D4 /* Vendor */,
 				8424CFA31F75323400880F48 /* HockeyApp */,
@@ -332,6 +337,7 @@
 				840DA0861F78D969002A73D4 /* HockeySDKResources.bundle in Resources */,
 				8424CFAC1F75323500880F48 /* Assets.xcassets in Resources */,
 				8424CFAA1F75323400880F48 /* Main.storyboard in Resources */,
+				840DA0911F7A6358002A73D4 /* analyze.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +347,7 @@
 			files = (
 				840DA08C1F7A56DF002A73D4 /* circle.yml in Resources */,
 				840DA0871F78D96A002A73D4 /* HockeySDKResources.bundle in Resources */,
+				840DA08F1F7A6358002A73D4 /* analyze.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +357,7 @@
 			files = (
 				840DA08D1F7A56DF002A73D4 /* circle.yml in Resources */,
 				840DA0881F78D96B002A73D4 /* HockeySDKResources.bundle in Resources */,
+				840DA0901F7A6358002A73D4 /* analyze.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
