@@ -1,3 +1,5 @@
 machine:
 xcode:
 version: "9.0"
+environment:
+GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Minoo Dastur (2HJN89T7GV)"
