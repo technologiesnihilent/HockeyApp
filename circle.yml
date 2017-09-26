@@ -8,8 +8,8 @@ machine:
 test:
     override:
       xcodebuild \
-      -workspace MyAwesomeApp.xcworkspace \
-      -scheme MyAwesomeApp \
+      -workspace HockeyApp.xcworkspace \
+      -scheme HockeyApp \
       -sdk iphonesimulator \
       -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.11' \
       test
