@@ -7,14 +7,9 @@ machine:
         version: "9.0"
 test:
     override:
-#      - ./analyze.sh
-#      - set -o pipefail &&
-        xcodebuild
-          CODE_SIGNING_REQUIRED=NO
-          CODE_SIGN_IDENTITY=
-          PROVISIONING_PROFILE=
-          -sdk iphonesimulator
-          -destination 'platform=iOS Simulator,OS=9.0,name=iPhone 6'
-#          -workspace HockeyApp.xcworkspace
-          -scheme "HockeyApp"
-          test 
+      xcodebuild \
+      -workspace MyAwesomeApp.xcworkspace \
+      -scheme MyAwesomeApp \
+      -sdk iphonesimulator \
+      -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.11' \
+      test
