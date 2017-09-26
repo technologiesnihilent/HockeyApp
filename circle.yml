@@ -15,7 +15,7 @@ test:
           PROVISIONING_PROFILE=
           -sdk iphonesimulator
           -destination 'platform=iOS Simulator,OS=9.0,name=iPhone 6'
-          -workspace HockeyApp.xcworkspace
+#          -workspace HockeyApp.xcworkspace
           -scheme "HockeyApp"
           test |
         tee $CIRCLE_ARTIFACTS/xcode_raw.log |
