@@ -2,7 +2,7 @@ machine:
 xcode:
 version: "9.0"
 
-dependencies:
+
 override:
 - bundle install
 
