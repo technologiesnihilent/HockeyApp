@@ -7,7 +7,7 @@ machine:
         version: "9.0"
 test:
     override:
-      - ./analyze.sh
+#      - ./analyze.sh
       - set -o pipefail &&
         xcodebuild
           CODE_SIGNING_REQUIRED=NO
