@@ -17,6 +17,3 @@ test:
           -destination 'platform=iOS Simulator,OS=9.0,name=iPhone 6'
 #          -workspace HockeyApp.xcworkspace
           -scheme "HockeyApp"
-          test |
-        tee $CIRCLE_ARTIFACTS/xcode_raw.log |
-        xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
