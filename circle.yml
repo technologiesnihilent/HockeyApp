@@ -7,5 +7,7 @@ machine:
         version: "9.0"
 test:
     override:
-      - ./bin/tests
+      - rake test:ios
+      - rake test:osx
+      - rake test:xctool_ios
 
