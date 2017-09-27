@@ -58,7 +58,7 @@ curl --verbose \
      --form "notify=${CURL_NOTIFY}" \
      --form "notes=${HOCKEYAPP_NOTES}" \
      --form "notes_type=1" \
-     --form "ipa=@${HOCKEYAPP_EXPORT_IPA_PATH}" \
+     --form "ipa=@${HOCKEYAPP_EXPORT_IPA_PATH}/HockeyApp.ipa" \
      --form "tags=${CURL_TAGS}" \
      --form "release_type=2" \
      --header "X-HockeyAppToken: ${HOCKEYAPP_TOKEN}" \
