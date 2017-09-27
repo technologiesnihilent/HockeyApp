@@ -55,7 +55,11 @@ fi
 curl --verbose \
      --fail \
      --form "status=2" \
-     --form "notify=1" \
-     --form "ipa=@/Users/distiller/HockeyApp/HockeyApp.xcarchive" \
+     --form "notify=${CURL_NOTIFY}" \
+     --form "notes=${HOCKEYAPP_NOTES}" \
+     --form "notes_type=1" \
+     --form "ipa=@/Users/distiller/HockeyApp/HockeyApp.ipa" \
+     --form "tags=${CURL_TAGS}" \
+     --form "release_type=2" \
      --header "X-HockeyAppToken: ${HOCKEYAPP_TOKEN}" \
      "https://rink.hockeyapp.net/api/2/apps/${HOCKEYAPP_APP_IDENTIFIER}/app_versions"
