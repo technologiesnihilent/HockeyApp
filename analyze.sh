@@ -10,8 +10,8 @@
 
 patternsForFailure="following commands produced analyzer issues ANALYZE FAILED"
 
-! ({ xcodebuild -workspace HockeyApp.xcworkspace \
--scheme HockeyApp \
+! ({ xcodebuild -workspace CircleCI.xcworkspace \
+-scheme CircleCI \
 clean \
 analyze CODE_SIGN_IDENTITY="iPhone Distribution: Minoo Dastur (2HJN89T7GV)"
  CODE_SIGNING_REQUIRED=NO | xcpretty --color; } 2>&1 | tee /dev/tty | fgrep -q "${patternsForFailure}")

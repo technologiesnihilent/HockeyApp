@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EEE88F4AF5C70566F092AEC44367662 /* Pods-HockeyAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C2BE2121A195378315F3434F9DA2DE /* Pods-HockeyAppTests-dummy.m */; };
+		637A286AE8B8F99280BB391C6428870A /* Pods-HockeyAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97585D521F3C8584230526D2EF46006 /* Pods-HockeyAppUITests-dummy.m */; };
+		82D9B265750AAA7F77E3D730757F8D67 /* Pods-HockeyAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E38B43EA5DA2FE7DCBFB54BBF0B9819 /* Pods-HockeyAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8630E81628FAAE7E98E27CB367BFCC5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B25516DCBD1DD5CED3CCF634EBFF3EEB /* Pods-HockeyAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D5FDEED5AB8D8AE538980D6EBB28EC0 /* Pods-HockeyAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0840A42D55D65BD87441519E4866B46 /* Pods-HockeyApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D15FBE22CE8A5F07223C055B95AC460B /* Pods-HockeyApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9BBEE6B5833C9228F325DE8FAC5CDB4 /* Pods-HockeyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1CD6FF7DDD1AE0599C2EED2496C287 /* Pods-HockeyApp-dummy.m */; };
+		F7FDFCFEC99AD86DE2D2E7A47744EBE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA2C82DE5A0725292097A5FE42A493BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		006EB5018F1E52A88A350DF27F191BE4 /* Pods-HockeyAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HockeyAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		01068A7BBCF5EB96088C0D7A772CE831 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5FDEED5AB8D8AE538980D6EBB28EC0 /* Pods-HockeyAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HockeyAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		106CEC4A6AA06A6344F43B75A9B3374E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162E689B0E041F472C87795C28A0021A /* Pods-HockeyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HockeyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CFBA47E82C6D1AFC15407B3C78220A0 /* Pods-HockeyAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HockeyAppUITests.modulemap"; sourceTree = "<group>"; };
+		21C2BE2121A195378315F3434F9DA2DE /* Pods-HockeyAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HockeyAppTests-dummy.m"; sourceTree = "<group>"; };
+		2832E7AAD97AC444E063E39D293B702F /* Pods-HockeyAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HockeyAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2E8A9B7991E939CFCAA92087E002990F /* Pods-HockeyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HockeyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3776F4FDD5EAC246C0CF5026EFA34910 /* Pods-HockeyAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HockeyAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E38B43EA5DA2FE7DCBFB54BBF0B9819 /* Pods-HockeyAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HockeyAppTests-umbrella.h"; sourceTree = "<group>"; };
+		3E5D47B255E63440C5C1CA39E84D5EB1 /* Pods-HockeyAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HockeyAppTests.modulemap"; sourceTree = "<group>"; };
+		4466C95F9B4FAEC5207431E605BD7ED8 /* Pods-HockeyAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HockeyAppTests-resources.sh"; sourceTree = "<group>"; };
+		4500552627105D59B79D6FDCCB2DC398 /* Pods-HockeyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HockeyApp-resources.sh"; sourceTree = "<group>"; };
+		54D00ED4A771E2E8BCDEE06AEED92A42 /* Pods-HockeyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HockeyApp-frameworks.sh"; sourceTree = "<group>"; };
+		62349EDAEA8EE45BD55B8210032582FD /* Pods-HockeyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HockeyApp.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D225B421A4C89E7840B3D889339E271 /* Pods_HockeyAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HockeyAppTests.framework; path = "Pods-HockeyAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBEFC50C8E3D8584801090C4D0B9E8C /* Pods-HockeyAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HockeyAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75183C7BC89333A591A9752FA78AD2B7 /* Pods-HockeyAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HockeyAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CEFF423F1E58003279D7A953405F98B /* Pods-HockeyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HockeyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81F4E604B22C195F0D03E2BE96D70989 /* Pods-HockeyAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HockeyAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B1CD6FF7DDD1AE0599C2EED2496C287 /* Pods-HockeyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HockeyApp-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9573C39C558EA394E011189D7F3FB32D /* Pods-HockeyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HockeyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A60E17C30E92A81A2974E87131EB03E1 /* Pods-HockeyAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HockeyAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		AC3BB178A29DD09E3DB071FEA2ECDD89 /* Pods-HockeyApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HockeyApp.modulemap"; sourceTree = "<group>"; };
+		BD77F3ADC744D8E373C0E0D1E3DF7F1F /* Pods_HockeyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HockeyApp.framework; path = "Pods-HockeyApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE32DDB0E1E8254C8097D2B0EA2D3BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97585D521F3C8584230526D2EF46006 /* Pods-HockeyAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HockeyAppUITests-dummy.m"; sourceTree = "<group>"; };
+		CC1BB95534C4AE6D0DB2E5FF3614D8C3 /* Pods-HockeyAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HockeyAppUITests-resources.sh"; sourceTree = "<group>"; };
+		D14DD6462C49DF94F074230023BD004D /* Pods-HockeyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HockeyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D15FBE22CE8A5F07223C055B95AC460B /* Pods-HockeyApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HockeyApp-umbrella.h"; sourceTree = "<group>"; };
+		D8A951EFB817418799C8EE31A04FA6E1 /* Pods_HockeyAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HockeyAppUITests.framework; path = "Pods-HockeyAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB4602DB7F3B035D8B5654EF876F3BF /* Pods-HockeyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HockeyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BA615551A3B2D76A1E5BF6669FEA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2C82DE5A0725292097A5FE42A493BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80C3D5109350C87C743A8DED25B20120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7FDFCFEC99AD86DE2D2E7A47744EBE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB11C9D3498AD576C35E0AA1B7B7619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8630E81628FAAE7E98E27CB367BFCC5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BAF9C343144BF104226CDCC81FF2750 /* Pods-HockeyApp */ = {
+			isa = PBXGroup;
+			children = (
+				106CEC4A6AA06A6344F43B75A9B3374E /* Info.plist */,
+				AC3BB178A29DD09E3DB071FEA2ECDD89 /* Pods-HockeyApp.modulemap */,
+				EDB4602DB7F3B035D8B5654EF876F3BF /* Pods-HockeyApp-acknowledgements.markdown */,
+				162E689B0E041F472C87795C28A0021A /* Pods-HockeyApp-acknowledgements.plist */,
+				8B1CD6FF7DDD1AE0599C2EED2496C287 /* Pods-HockeyApp-dummy.m */,
+				54D00ED4A771E2E8BCDEE06AEED92A42 /* Pods-HockeyApp-frameworks.sh */,
+				4500552627105D59B79D6FDCCB2DC398 /* Pods-HockeyApp-resources.sh */,
+				D15FBE22CE8A5F07223C055B95AC460B /* Pods-HockeyApp-umbrella.h */,
+				2E8A9B7991E939CFCAA92087E002990F /* Pods-HockeyApp.debug.xcconfig */,
+				62349EDAEA8EE45BD55B8210032582FD /* Pods-HockeyApp.release.xcconfig */,
+			);
+			name = "Pods-HockeyApp";
+			path = "Target Support Files/Pods-HockeyApp";
+			sourceTree = "<group>";
+		};
+		7D79E6C42503C988CF6AF37647D525D0 /* Pods-HockeyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				01068A7BBCF5EB96088C0D7A772CE831 /* Info.plist */,
+				3E5D47B255E63440C5C1CA39E84D5EB1 /* Pods-HockeyAppTests.modulemap */,
+				75183C7BC89333A591A9752FA78AD2B7 /* Pods-HockeyAppTests-acknowledgements.markdown */,
+				6FBEFC50C8E3D8584801090C4D0B9E8C /* Pods-HockeyAppTests-acknowledgements.plist */,
+				21C2BE2121A195378315F3434F9DA2DE /* Pods-HockeyAppTests-dummy.m */,
+				A60E17C30E92A81A2974E87131EB03E1 /* Pods-HockeyAppTests-frameworks.sh */,
+				4466C95F9B4FAEC5207431E605BD7ED8 /* Pods-HockeyAppTests-resources.sh */,
+				3E38B43EA5DA2FE7DCBFB54BBF0B9819 /* Pods-HockeyAppTests-umbrella.h */,
+				9573C39C558EA394E011189D7F3FB32D /* Pods-HockeyAppTests.debug.xcconfig */,
+				81F4E604B22C195F0D03E2BE96D70989 /* Pods-HockeyAppTests.release.xcconfig */,
+			);
+			name = "Pods-HockeyAppTests";
+			path = "Target Support Files/Pods-HockeyAppTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8C7828F19FF1F6B6F607E6CF4C37DD13 /* Products */,
+				E56D66043DCF7791B01746B3C85700F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8C7828F19FF1F6B6F607E6CF4C37DD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD77F3ADC744D8E373C0E0D1E3DF7F1F /* Pods_HockeyApp.framework */,
+				6D225B421A4C89E7840B3D889339E271 /* Pods_HockeyAppTests.framework */,
+				D8A951EFB817418799C8EE31A04FA6E1 /* Pods_HockeyAppUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFBE6D5F33311E1E156958586FC7E0B3 /* Pods-HockeyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE32DDB0E1E8254C8097D2B0EA2D3BB /* Info.plist */,
+				1CFBA47E82C6D1AFC15407B3C78220A0 /* Pods-HockeyAppUITests.modulemap */,
+				3776F4FDD5EAC246C0CF5026EFA34910 /* Pods-HockeyAppUITests-acknowledgements.markdown */,
+				006EB5018F1E52A88A350DF27F191BE4 /* Pods-HockeyAppUITests-acknowledgements.plist */,
+				C97585D521F3C8584230526D2EF46006 /* Pods-HockeyAppUITests-dummy.m */,
+				2832E7AAD97AC444E063E39D293B702F /* Pods-HockeyAppUITests-frameworks.sh */,
+				CC1BB95534C4AE6D0DB2E5FF3614D8C3 /* Pods-HockeyAppUITests-resources.sh */,
+				0D5FDEED5AB8D8AE538980D6EBB28EC0 /* Pods-HockeyAppUITests-umbrella.h */,
+				7CEFF423F1E58003279D7A953405F98B /* Pods-HockeyAppUITests.debug.xcconfig */,
+				D14DD6462C49DF94F074230023BD004D /* Pods-HockeyAppUITests.release.xcconfig */,
+			);
+			name = "Pods-HockeyAppUITests";
+			path = "Target Support Files/Pods-HockeyAppUITests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E56D66043DCF7791B01746B3C85700F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAF9C343144BF104226CDCC81FF2750 /* Pods-HockeyApp */,
+				7D79E6C42503C988CF6AF37647D525D0 /* Pods-HockeyAppTests */,
+				BFBE6D5F33311E1E156958586FC7E0B3 /* Pods-HockeyAppUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23E8FA11F2D79554666D3024946588ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25516DCBD1DD5CED3CCF634EBFF3EEB /* Pods-HockeyAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A93DCF770411408E77E0F451D9207C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82D9B265750AAA7F77E3D730757F8D67 /* Pods-HockeyAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D959859F4AD90FD52B89A6AC2BECDBBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0840A42D55D65BD87441519E4866B46 /* Pods-HockeyApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E8EC08E408FAF294E8FC6A4B3065073 /* Pods-HockeyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E03AC82034E171D64437B35BEAF79CB /* Build configuration list for PBXNativeTarget "Pods-HockeyApp" */;
+			buildPhases = (
+				8F94EC0ADF8EAD73C6EA3BFC5BD9A6F2 /* Sources */,
+				72BA615551A3B2D76A1E5BF6669FEA1A /* Frameworks */,
+				D959859F4AD90FD52B89A6AC2BECDBBE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HockeyApp";
+			productName = "Pods-HockeyApp";
+			productReference = BD77F3ADC744D8E373C0E0D1E3DF7F1F /* Pods_HockeyApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		813169D800576A68688EFC08943D93FD /* Pods-HockeyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F7426F2C94667116010FA79318A08C /* Build configuration list for PBXNativeTarget "Pods-HockeyAppTests" */;
+			buildPhases = (
+				BEAA4044ABACB6D8B34FEC8A8C968E6A /* Sources */,
+				8CB11C9D3498AD576C35E0AA1B7B7619 /* Frameworks */,
+				C2A93DCF770411408E77E0F451D9207C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HockeyAppTests";
+			productName = "Pods-HockeyAppTests";
+			productReference = 6D225B421A4C89E7840B3D889339E271 /* Pods_HockeyAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF350209CD7637B65C6F7D1934B62E4C /* Pods-HockeyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572B26B4013E19EFD26A77111991B227 /* Build configuration list for PBXNativeTarget "Pods-HockeyAppUITests" */;
+			buildPhases = (
+				66A6362A37F55584ABBD4095ED65C666 /* Sources */,
+				80C3D5109350C87C743A8DED25B20120 /* Frameworks */,
+				23E8FA11F2D79554666D3024946588ED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HockeyAppUITests";
+			productName = "Pods-HockeyAppUITests";
+			productReference = D8A951EFB817418799C8EE31A04FA6E1 /* Pods_HockeyAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8C7828F19FF1F6B6F607E6CF4C37DD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8EC08E408FAF294E8FC6A4B3065073 /* Pods-HockeyApp */,
+				813169D800576A68688EFC08943D93FD /* Pods-HockeyAppTests */,
+				FF350209CD7637B65C6F7D1934B62E4C /* Pods-HockeyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A6362A37F55584ABBD4095ED65C666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637A286AE8B8F99280BB391C6428870A /* Pods-HockeyAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F94EC0ADF8EAD73C6EA3BFC5BD9A6F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BBEE6B5833C9228F325DE8FAC5CDB4 /* Pods-HockeyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAA4044ABACB6D8B34FEC8A8C968E6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEE88F4AF5C70566F092AEC44367662 /* Pods-HockeyAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33B96D6FAD6C013078DE302D1BD4D8EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62349EDAEA8EE45BD55B8210032582FD /* Pods-HockeyApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HockeyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HockeyApp/Pods-HockeyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HockeyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9BCCB5D4B0EEBE64020DCA15930E8DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8A9B7991E939CFCAA92087E002990F /* Pods-HockeyApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HockeyApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HockeyApp/Pods-HockeyApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HockeyApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD8F4B7270A04AAE254805A301544E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEFF423F1E58003279D7A953405F98B /* Pods-HockeyAppUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HockeyAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HockeyAppUITests/Pods-HockeyAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HockeyAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E279C36AAA87EEF17F0BA1907551ED9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14DD6462C49DF94F074230023BD004D /* Pods-HockeyAppUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HockeyAppUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HockeyAppUITests/Pods-HockeyAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HockeyAppUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7F42D622390898AA7005785607462BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9573C39C558EA394E011189D7F3FB32D /* Pods-HockeyAppTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HockeyAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HockeyAppTests/Pods-HockeyAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HockeyAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F18818282C014202FA91F3EE257CAEFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F4E604B22C195F0D03E2BE96D70989 /* Pods-HockeyAppTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HockeyAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HockeyAppTests/Pods-HockeyAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HockeyAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572B26B4013E19EFD26A77111991B227 /* Build configuration list for PBXNativeTarget "Pods-HockeyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8F4B7270A04AAE254805A301544E26 /* Debug */,
+				E279C36AAA87EEF17F0BA1907551ED9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E03AC82034E171D64437B35BEAF79CB /* Build configuration list for PBXNativeTarget "Pods-HockeyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCCB5D4B0EEBE64020DCA15930E8DA7 /* Debug */,
+				33B96D6FAD6C013078DE302D1BD4D8EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F7426F2C94667116010FA79318A08C /* Build configuration list for PBXNativeTarget "Pods-HockeyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7F42D622390898AA7005785607462BA /* Debug */,
+				F18818282C014202FA91F3EE257CAEFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

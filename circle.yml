@@ -5,11 +5,29 @@ machine:
         LANG: en_US.UTF-8
     xcode:
         version: "9.0"
+#    environment:
+#       GYM_CODE_SIGNING_IDENTITY: "iPhone Distribution: Minoo Dastur (2HJN89T7GV)"
+
 test:
-    override:
-      xcodebuild \
-      -workspace HockeyApp.xcworkspace \
-      -scheme HockeyApp \
-      -sdk iphonesimulator \
-      -destination 'platform=iOS Simulator,name=iPhone 6,OS=8.11' \
-      test
+  override:
+    - set -o pipefail &&
+      xcodebuild
+        CODE_SIGNING_REQUIRED=NO
+        CODE_SIGN_IDENTITY=
+        PROVISIONING_PROFILE=
+        -sdk iphonesimulator
+        -destination 'platform=iOS Simulator,OS=11.0,name=iPhone 6s'
+        -workspace HockeyApp.xcworkspace
+        -scheme "HockeyApp"
+        clean build test |
+      tee $CIRCLE_ARTIFACTS/xcode_raw.log |
+      xcpretty --color --report junit --output $CIRCLE_TEST_REPORTS/xcode/results.xml
+deployment:
+  hockey:
+    branch: [dev, master]
+    commands:
+      - ./install_certificates_and_profiles.sh
+      - xcodebuild archive -workspace HockeyApp.xcworkspace -scheme HockeyApp -archivePath HockeyApp.xcarchive
+      - xcodebuild -exportArchive -archivePath HockeyApp.xcarchive -exportOptionsPlist exportOptions.plist -exportPath ./
+      - ./remove_certificates_and_profiles.sh
+      - ./deploy_hockeyapp.sh

@@ -2,13 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>compileBitcode</key>
+	<false/>
+	<key>provisioningProfiles</key>
 	<dict>
-		<key>HockeyApp.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
+		<key>com.nihilent.Wildcard.HokeyApp</key>
+		<string>Wildcard_Dist</string>
 	</dict>
 </dict>
 </plist>
