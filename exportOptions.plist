@@ -11,7 +11,5 @@
 		<key>com.nihilent.Wildcard.HokeyApp</key>
 		<string>Wildcard_Dist</string>
 	</dict>
-	<key>uploadSymbols</key>
-	<true/>
 </dict>
 </plist>
