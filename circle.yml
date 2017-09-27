@@ -28,6 +28,6 @@ deployment:
     commands:
       - ./install_certificates_and_profiles.sh
       - xcodebuild archive -workspace HockeyApp.xcworkspace -scheme HockeyApp -archivePath HockeyApp.xcarchive
-      - xcodebuild -exportArchive -exportFormat IPA -archivePath HockeyApp.xcarchive -exportOptionsPlist exportOptions.plist -exportPath ./
+      - xcodebuild -exportArchive -archivePath HockeyApp.xcarchive -exportOptionsPlist exportOptions.plist -exportPath ./
       - ./remove_certificates_and_profiles.sh
       - ./deploy_hockeyapp.sh

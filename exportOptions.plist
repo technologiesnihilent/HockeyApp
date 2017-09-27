@@ -5,11 +5,13 @@
 	<key>method</key>
 	<string>ad-hoc</string>
 	<key>compileBitcode</key>
-	<false/>
+	<true/>
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.nihilent.Wildcard.HokeyApp</key>
 		<string>Wildcard_Dist</string>
 	</dict>
+	<key>uploadSymbols</key>
+	<true/>
 </dict>
 </plist>
