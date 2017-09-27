@@ -62,4 +62,4 @@ curl --verbose \
      --form "tags=${CURL_TAGS}" \
      --form "release_type=2" \
      --header "X-HockeyAppToken: ${HOCKEYAPP_TOKEN}" \
-     "https://upload.hockeyapp.net/api/2/apps/${HOCKEYAPP_APP_IDENTIFIER}/app_versions/upload"
+     "https://rink.hockeyapp.net/api/2/apps/${HOCKEYAPP_APP_IDENTIFIER}/app_versions"
