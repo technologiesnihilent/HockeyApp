@@ -35,7 +35,7 @@ class HockeyAppTests: XCTestCase {
     func testMyFunction() {
         XCTAssert((2 == 2), "false")
     }
-    func testNewCase() {
-        XCTAssert((2 == 2), "false")
-    }
+//    func testNewCase() {
+//        XCTAssert((2 == 2), "false")
+//    }
 }
